@@ -40,3 +40,10 @@ variable "Private_Data_Subnet_AZ2_cidr" {
     description = "Private Data Subnet AZ2 CIDR block" 
     type        = string
 }
+
+# Security Group Variable
+variable "SSH_location" {
+    default     = "0.0.0.0/0"
+    description = "The IP address that can ssh into the EC2 instance" 
+    type        = string
+}
