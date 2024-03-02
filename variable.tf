@@ -79,3 +79,10 @@ variable "ssl_certificate_arn" {
     description = "SSL certificate arn" 
     type        = string
 }
+
+# SNS Topic Variables
+variable "sns_subscription_email" {
+    default     = "your email"
+    description = "Valid email address" 
+    type        = string
+}
