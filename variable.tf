@@ -82,7 +82,7 @@ variable "ssl_certificate_arn" {
 
 # SNS Topic Variables
 variable "sns_subscription_email" {
-    default     = "your email"
+    default     = "diogo.22.09@gmail.com"
     description = "Valid email address" 
     type        = string
 }
@@ -109,5 +109,18 @@ variable "EC2_instance_type" {
 variable "EC2_keypair_name" {
     default     = "EC2KeyPair"
     description = "EC2 Key Pair name" 
+    type        = string
+}
+
+# Route53 Variables
+variable "Domain_name" {
+    default     = "super-cool-domain.com"
+    description = "Domain name" 
+    type        = string
+}
+
+variable "Record_name" {
+    default     = "www"
+    description = "Subdomain name" 
     type        = string
 }
