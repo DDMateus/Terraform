@@ -7,8 +7,6 @@
 - [Introduction](#introduction)
 - [Projects](#projects)
 - [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
