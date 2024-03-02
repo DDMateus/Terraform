@@ -86,3 +86,28 @@ variable "sns_subscription_email" {
     description = "Valid email address" 
     type        = string
 }
+
+# ASG Variables
+variable "launch_template_name" {
+    default     = "dev-launch-template"
+    description = "Launch template name" 
+    type        = string
+}
+
+variable "EC2_image_ami" {
+    default     = "ami-0440d3b780d96b29d"
+    description = "ID of the AMI" 
+    type        = string
+}
+
+variable "EC2_instance_type" {
+    default     = "t2.micro"
+    description = "EC2 instance type" 
+    type        = string
+}
+
+variable "EC2_keypair_name" {
+    default     = "EC2KeyPair"
+    description = "EC2 Key Pair name" 
+    type        = string
+}
